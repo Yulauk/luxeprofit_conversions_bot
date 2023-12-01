@@ -10,8 +10,7 @@ time_zone = pytz.timezone('Europe/Madrid')
 time_now = datetime.now(time_zone)
 
 # API-Key
-api_key = luxeprofit_api_key
-headers = {'API-Key': api_key}
+headers = {'API-Key': luxeprofit_api_key}
 
 # URL
 base_url = 'https://api-luxeprofit.affise.com'
